@@ -32,7 +32,7 @@ body {
     padding: 16px 32px;
     background: #006400;
     color: white;
-    z-index: 1000;
+    z-index: 100000;
 }
 
 .header .logo img {
