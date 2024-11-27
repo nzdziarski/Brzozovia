@@ -73,6 +73,10 @@ body {
     cursor: pointer;
 }
 
+.icon.clicked {
+    color: white;
+}
+
 .hero {
     width: 91.3%; 
     text-align: center;
@@ -357,6 +361,8 @@ section{
     background-color:#228B22;
 }
 
+
+
 .footer-content{
     padding-top: 50px;
     display: flex;
@@ -426,7 +432,6 @@ section{
     .icon:hover{
         background-color: #d3d1d1;
     }
-
     .icon.clicked {
         color: white; 
     }
@@ -467,7 +472,5 @@ section{
         position: block;
         left: 50%;
     }
-    /* footer .icon{
-        
-    } */
+
 }
