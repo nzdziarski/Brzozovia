@@ -420,8 +420,7 @@ section{
     .icon {
         display: block;
         width: 100px;
-        left: 20%;
-        position: relative;
+        margin: 40px;
     }
 
     .icon:hover{
