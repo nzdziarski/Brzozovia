@@ -278,7 +278,7 @@ body {
 .terminarz{
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 60px;
     align-items: center;
 }
 
