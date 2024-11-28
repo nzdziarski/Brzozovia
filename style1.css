@@ -433,7 +433,7 @@ section{
         background-color: #d3d1d1;
     }
     .icon.clicked {
-        color: white; 
+        background-color: #006400; 
     }
 
     .navbar #myLinks {
