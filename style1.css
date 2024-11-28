@@ -432,9 +432,6 @@ section{
     .icon:hover{
         background-color: #d3d1d1;
     }
-    .icon:visited{
-        color: white;
-    }
     .icon.clicked {
         color: white; 
     }
