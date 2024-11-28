@@ -429,13 +429,7 @@ section{
         margin-left: 40px;
     }
 
-    .icon:hover{
-        background-color: #d3d1d1;
-    }
-    .icon.clicked {
-        background-color: #006400; 
-    }
-
+    
     .navbar #myLinks {
         max-height: 0;
         overflow: hidden;
