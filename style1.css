@@ -452,7 +452,7 @@ section{
 
     
     .icon {
-        display: block;
+        display: flex;
         width: 100px;
         margin-left: 39px;
         background-color: #006400;
