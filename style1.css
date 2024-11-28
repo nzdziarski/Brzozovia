@@ -344,24 +344,14 @@ section{
     width: 100%;
     padding: 30px 40px;
     color: #FFFFFF;
+    text-align: center;
+    /* display: flex;
+    flex-direction: column; */
 }
-.footer img#herb{
-    width: 50px;
-    height: 50px;
-    margin-left: 50px;
+.footer-info{
+    /* display: flex; */
+    text-align: left;
 }
-
-.footer .icon{
-    width: 40px;
-    height: 40px;
-    margin-left: 15px;
-    display: block;
-}
-.footer .icon:hover{
-    background-color:#228B22;
-}
-
-
 
 .footer-content{
     padding-top: 50px;
@@ -371,15 +361,52 @@ section{
     margin-bottom: 32px;
     background-color: #006400;
 }
-.footer-klub{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+
+.footer img#herb{
+    width: 50px;
+    height: 50px;
+    /* margin-left: 50px; */
+    display: block;
+    margin: 0 auto;
+
 }
 
-.footer p {
-    text-align: center;
+.footer .icon{
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+    /* display: block; */
 }
+.footer .icon:hover{
+    background-color:#228B22;
+}
+
+
+.footer-klub{
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    right: 20px; */
+    text-align: right;
+}
+
+.footer-klub h4{
+    margin-bottom: 10px;
+}
+
+.footer-klub .icon{
+    margin-left: 10px;
+    display: block;
+}
+
+/* .footer p {
+    text-align: center;
+} */
+.footer-info img {
+    display: block;
+    margin: 0 auto;
+}
+
 .content {
     display: flex;
     flex-wrap: wrap;
@@ -423,13 +450,14 @@ section{
         width: 100%;
     }
 
+    
     .icon {
         display: block;
         width: 100px;
         margin-left: 39px;
+        background-color: #006400;
     }
 
-    
     .navbar #myLinks {
         max-height: 0;
         overflow: hidden;
