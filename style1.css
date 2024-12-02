@@ -280,7 +280,7 @@ body {
     margin-bottom: 20;
 }
 
-.terminarz, .galeria{
+.terminarz{
     display: flex;
     flex-direction: column;
     gap: 60px;
@@ -295,10 +295,62 @@ section{
 .terminarz h1 {
     font-size: 45px;
     text-align: center;
-    margin-bottom: 40px;
-    margin-top: 20px;
+    margin-bottom: 0px;
+    padding-top: 100px;
     color: #228B22;
 }
+
+.galeria{
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.galeria h2 {
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: black;
+}
+
+#sesja1{
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    color: black;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 15px;
+    justify-items: center;
+}
+
+.photo-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.photo-grid1 img {
+    object-fit: cover; /* Zapewnia równomierne przycięcie */
+    width: 100%;
+    aspect-ratio: 4/3; /* Zachowanie proporcji (np. 4:3) */
+}
+
+
+.photo-grid img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
 .match {
     margin: 10px 0;
     padding: 10px;
@@ -365,11 +417,9 @@ section{
     padding: 30px 40px;
     color: #FFFFFF;
     text-align: center;
-    /* display: flex;
-    flex-direction: column; */
+    
 }
 .footer-info{
-    /* display: flex; */
     text-align: left;
 }
 
@@ -385,7 +435,6 @@ section{
 .footer img#herb{
     width: 50px;
     height: 50px;
-    /* margin-left: 50px; */
     display: block;
     margin: 0 auto;
 
@@ -396,7 +445,6 @@ section{
     height: 40px;
     border-radius: 5px;
     margin-left: 15px;
-    /* display: block; */
     background-color: #FFFFFF;
     
 }
@@ -406,10 +454,6 @@ section{
 
 
 .footer-klub{
-    /* display: flex;
-    flex-direction: row;
-    align-items: center;
-    right: 20px; */
     text-align: right;
 }
 
@@ -422,9 +466,6 @@ section{
     display: block;
 }
 
-/* .footer p {
-    text-align: center;
-} */
 .footer-info img {
     display: block;
     margin: 0 auto;
@@ -516,6 +557,9 @@ section{
     .logo{
         position: block;
         left: 50%;
+    }
+    #sesja1{
+        padding-top: 160px;
     }
 
 }
