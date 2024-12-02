@@ -275,7 +275,7 @@ body {
     margin-bottom: 20;
 }
 
-.terminarz{
+.terminarz, .galeria{
     display: flex;
     flex-direction: column;
     gap: 60px;
@@ -336,7 +336,21 @@ section{
     justify-content: space-between;
 }
 
+.stare_zdj{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
 
+.wywiad{
+    font-style: italic;
+    line-height: 1.0;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #efe9e9;
+    text-align-last: auto;
+    padding: 15px;
+}
 
 .footer{
     background-color: #006400;
@@ -374,8 +388,11 @@ section{
 .footer .icon{
     width: 40px;
     height: 40px;
+    border-radius: 5px;
     margin-left: 15px;
     /* display: block; */
+    background-color: #FFFFFF;
+    
 }
 .footer .icon:hover{
     background-color:#228B22;
