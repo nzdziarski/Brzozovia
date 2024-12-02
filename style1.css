@@ -204,6 +204,11 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.historia h2{
+    margin: 20px auto; 
+    text-align: center;
+}
+
 #gallery {
     width: 90%; /* Dostosuj szerokość */
     margin: 20px auto; /* Wyśrodkuj na stronie */
@@ -286,6 +291,7 @@ section{
     padding-inline: 32px;
     margin-bottom: 48px;
 }
+
 .terminarz h1 {
     font-size: 45px;
     text-align: center;
@@ -337,6 +343,7 @@ section{
 }
 
 .stare_zdj{
+    align-items: center;
     display: flex;
     justify-content: space-around;
 }
@@ -347,6 +354,7 @@ section{
     font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #efe9e9;
+    text-align-last: auto;
     padding: 15px;
 }
 
