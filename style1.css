@@ -337,7 +337,6 @@ section{
 }
 
 .stare_zdj{
-    align-items: center;
     display: flex;
     justify-content: space-around;
 }
@@ -348,7 +347,6 @@ section{
     font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #efe9e9;
-    text-align-last: auto;
     padding: 15px;
 }
 
