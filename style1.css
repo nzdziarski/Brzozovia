@@ -561,5 +561,14 @@ section{
     #sesja1{
         padding-top: 160px;
     }
+    .galeria{
+        grid-template-columns: 1fr;
+        margin-left: auto;
+        margin-right: 0px;
+        padding: 0px;
+    }
+    .photo-grid img{
+        width: 80%;
+    }
 
 }
