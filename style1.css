@@ -572,3 +572,14 @@ section{
     }
 
 }
+
+@media (max-width: 768px) {
+    .content{
+        margin-left: 48px;
+    }
+    .footer{
+        width: max-content;
+    }
+
+    
+}
