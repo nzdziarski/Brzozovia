@@ -573,7 +573,7 @@ section{
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 541px) {
     .content{
         margin-left: 48px;
     }
